@@ -1,0 +1,217 @@
+.container-fluid{
+    background: rgb(90,17,127);
+    background: linear-gradient(146deg, rgba(90,17,127,1) 0%, rgba(150,14,130,1) 50%, rgba(207,11,132,1) 100%);
+    padding: 0px 80px !important;
+}
+.header{
+    height: auto;
+    width: 100%;
+    padding: 30px 0px;
+}
+.menu{
+  
+     margin-right: 80px;
+     display: flex;
+     justify-content: end;
+}
+.menu a{
+    color: #fff;
+    padding: 20px !important;
+    font-size: 20px;
+}
+.fa-bars{
+    font-size: 5vw;
+  display: flex;
+  justify-content: center;
+}
+.search-bar{
+    padding: 0px 0px; 
+}
+.search-bar{
+    float: left;
+}
+.search{
+    max-width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    margin-top: 35px;
+}
+.social{
+    float: right;
+    margin-top: 25px;
+}
+.social ul{
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+}
+.social li{
+    list-style-type: none;
+    display: inline-block;
+   
+}
+.social li a{
+    color: #fff;
+    font-size: 2vw;
+    color: #fff;
+}
+.cont{
+    position:relative;
+}
+.text-1{
+    position: absolute;
+    top: 15%;
+    color: #fff;
+    padding-left: 30px;
+}
+.text-1 h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 70px;
+}
+.text-1 h2{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-1 p{
+    font-size: 20px;
+}
+.read-more{
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;/
+    
+}
+.read-more:hover{
+background: rgb(1, 13, 71);
+color: #fff;
+text-decoration: none;
+
+}
+.element{
+    position: relative;
+    padding: 50px 0px;
+}
+.ele-1{
+    position: absolute;
+    right: -80px;
+}
+.ele-2{
+    position: absolute;
+    left: -80px;
+}
+.text-2{
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    padding: 50px 50px;
+
+}
+.text-2 h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 70px;
+}
+.text-2 h2{
+    font-size: 40px;
+    line-height: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-2 p{
+    font-size: 22px;
+    line-height: 30px;
+}
+.mobile-home{
+    margin-top: 150px;
+}
+.card-container{
+    background: rgb(225,204,236);
+    background: linear-gradient(178deg, rgba(225,204,236,0.6) 0%, rgba(193,100,179,0.6) 70%, rgba(135,0,83,0.6) 100%);
+    border-radius: 25px;
+    display: flex;
+    padding: 50px 25px;
+    position: relative;
+    display: block;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.4) !important;
+    border-top:1px solid #fff !important;
+    border-style: initial;
+    z-index: 10;
+}
+.card{
+    padding: 30px;
+    border: 0px none !important;
+    position: absolute;
+    display: flex;
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.4) !important;
+    border-radius: 25px !important;
+    background: rgba(0, 0, 0, 0.0) !important;
+}
+
+.card-body{
+    background: transparent;
+    text-align: center;
+    color: #fff;
+}
+.card img{
+    width: 165px;
+    height: 155px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+.element-3{
+    position: absolute;
+    top: 65%;
+    right: -80px;
+}
+.sicurity h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0px;
+}
+.card-container-2{
+    padding: 50px 0px;
+    display: flex;
+}
+
+.card-2{
+    box-shadow: none !important;
+    background: rgb(101,17,151);
+background: linear-gradient(180deg, rgba(101,17,151,1) 0%, rgba(101,21,153,1) 49%, rgba(161,84,176,1) 100%) !important;
+width: 80%;
+position: relative;
+border: 1px solid #000 !important;
+}
+.card-2 img{
+    width: 250px !important;
+    height: 250px !important;
+}
+.card-2 a{
+    text-decoration: none !important;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    margin-top: 40px !important;
+}
+
+.card-2::before{
+    width: 500px !important;
+    height: 800px !important;
+    position: absolute;
+    background: #000 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-2::after{
+    content: '';
+    position: absolute;
+    inset: 100px;
+    background: transparent;
+    border-radius: 150px 150px;
+    left: 60px;
+}
